@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
  * which is editable by the user.
  */
 export default class MyDashComponent extends Component {
-    render() {
+    render() { 
         const {id, label, setProps, value} = this.props;
 
         return (
